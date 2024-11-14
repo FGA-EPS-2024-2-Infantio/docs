@@ -1,0 +1,38 @@
+site_name: Infantio
+
+repo_name: Infantio
+repo_url: https://github.com/FGA-EPS-2024-2-Infantio
+
+copyright: Copyright &copy; 2024 Infantio
+
+theme:
+  name: material
+  language: pt
+  # logo: img/logo.png
+  # favicon: img/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      toggle:
+        icon: material/brightness-7
+        name: Tema escuro
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      toggle:
+        icon: material/brightness-4
+        name: Tema claro
+  font:
+    text: "Inter"
+    code: "sans-serif"
+
+  features:
+    - tabs
+    - navigation.section
+
+nav:
+  - Sobre o Projeto: index.md
+  - Planejamento:
+      - Cronograma: planejamento/cronograma.md
