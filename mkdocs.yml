@@ -36,3 +36,5 @@ nav:
   - Sobre o Projeto: index.md
   - Planejamento:
       - Cronograma: planejamento/cronograma.md
+  - Sprints:
+      - Sprint 1: sprints/sprint1.md
