@@ -42,11 +42,11 @@ Após o brainstorm, por meio de instrospecção, definimos o MVP, sendo ele:
 
 | Itens do MVP                    |
 | ------------------------------- |
-| Gerenciamento de mensalidade    |
-| Matricula de aluno via link     |
-| Gerenciamento de faltas         |
-| Gerenciamento de aluno          |
-| Gerenciamento de professor      |
+| Controle de mensalidade         |
+| Sistema de matricula online     |
+| Gestão de faltas                |
+| Gerenciamento de alunos         |
+| Gerenciamento de professores    |
 | Gerenciamento de escolas        |
 | Login com vários tipos de roles |
 | Gerenciamento de turmas         |

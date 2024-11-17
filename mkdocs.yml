@@ -8,8 +8,8 @@ copyright: Copyright &copy; 2024 Infantio
 theme:
   name: material
   language: pt
-  # logo: img/logo.png
-  # favicon: img/logo.png
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -38,6 +38,7 @@ nav:
       - Brainstorm: planejamento/brainstorm.md
       - Protótipo e Validação: planejamento/prototipo_validacao.md
       - Base de desenvolvimento: planejamento/base_desenvolvimento.md
+      - Formalização: planejamento/formalizacao.md
       - Cronograma: planejamento/cronograma.md
   - Sprints:
       - Sprint 1: sprints/sprint1.md
