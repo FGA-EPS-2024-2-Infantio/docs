@@ -37,6 +37,7 @@ nav:
   - Planejamento:
       - Brainstorm: planejamento/brainstorm.md
       - Protótipo e Validação: planejamento/prototipo_validacao.md
+      - Base de desenvolvimento: planejamento/base_desenvolvimento.md
       - Cronograma: planejamento/cronograma.md
   - Sprints:
       - Sprint 1: sprints/sprint1.md
