@@ -3,6 +3,9 @@ site_name: Infantio
 repo_name: Infantio
 repo_url: https://github.com/FGA-EPS-2024-2-Infantio
 
+site_url: https://fga-eps-2024-2-infantio.github.io/
+use_directory_urls: true
+
 copyright: Copyright &copy; 2024 Infantio
 
 theme:
@@ -31,6 +34,9 @@ theme:
   features:
     - tabs
     - navigation.section
+
+extra:
+  base_path: /
 
 nav:
   - Sobre o Projeto: index.md
