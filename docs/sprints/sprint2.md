@@ -32,8 +32,3 @@ Foram revisadas todas as issues planejadas para entrega na Sprint 2, garantindo 
 #### 4. Objetivos da semana
 
 Foi estabelecido como objetivo principal o desenvolvimento de um "MVP alpha" funcional até o final da Sprint 2.
-
-## Avaliação de pares
-
-
-## Sprint review

@@ -18,11 +18,17 @@ Este documento descreve detalhadamente as responsabilidades e funções atribuí
 
 [Papeis e Stack](../assets/papeis_e_stack.pdf)
 
-### Acordo de serviço
+### Acordo de serviço coletivo
 
 Instrumento formal que especifica como cada membro da equipe contribuirá para o projeto. Este documento define obrigações, deveres e expectativas individuais, promovendo a clareza e o comprometimento entre os participantes.
 
 [Acordo de serviço](../assets/acordo_servico.pdf)
+
+### Acordos de serviços individuais
+
+Para acessar todos os acordos de serviços individuais, basta acessar o link do google drive
+
+[Todos acordos de serviços individuais](https://drive.google.com/drive/u/1/folders/1DI8DL1Lil7-tpJFKu1sb6nT7MKPLy9Fv)
 
 ### Identificação das partes interessadas
 
