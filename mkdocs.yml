@@ -46,7 +46,19 @@ nav:
       - Base de desenvolvimento: planejamento/base_desenvolvimento.md
       - Formalização: planejamento/formalizacao.md
       - Cronograma: planejamento/cronograma.md
+      - Stack Tecnológico: planejamento/stack_tecnologico.md
   - Sprints:
       - Sprint 1: sprints/sprint1.md
       - Sprint 2: sprints/sprint2.md
       - Sprint 3: sprints/sprint3.md
+      - Sprint 4: sprints/sprint4.md
+  - Artefatos:
+      - Roadmap: artefatos/roadmap.md
+      - Storymap: artefatos/roadmap.md
+      - Prototipos: artefatos/roadmap.md
+      - Personas: artefatos/roadmap.md
+      - Requisitos: artefatos/roadmap.md
+      - Histórias de usuário: artefatos/roadmap.md
+      - Épicos: artefatos/roadmap.md
+  - Entregas:
+      - MVP: entregas/mvp.md
