@@ -62,3 +62,4 @@ nav:
       - Épicos: artefatos/roadmap.md
   - Entregas:
       - MVP: entregas/mvp.md
+      - Documento InfraEstrutura: entregas/docinfra.md
