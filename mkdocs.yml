@@ -47,6 +47,7 @@ nav:
       - Formalização: planejamento/formalizacao.md
       - Cronograma: planejamento/cronograma.md
       - Stack Tecnológico: planejamento/stack_tecnologico.md
+      - Planejamento de atividades: planejamento/table.md
   - Sprints:
       - Sprint 1: sprints/sprint1.md
       - Sprint 2: sprints/sprint2.md
@@ -62,4 +63,4 @@ nav:
       - Épicos: artefatos/roadmap.md
   - Entregas:
       - MVP: entregas/mvp.md
-      - Documento InfraEstrutura: entregas/docinfra.md
+      - Documento InfraEstrutura: entregas/docInfra.md
