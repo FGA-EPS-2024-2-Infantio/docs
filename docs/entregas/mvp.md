@@ -54,25 +54,20 @@
 | --------- | ------ | ------ |
 | ✅        | ✅     | ✅     |
 
-### 6. Gestão de Pagamento de Mensalidade
+
+### 6. Chamada de presença da turma
 
 | Adicionar | Editar | Listar |
 | --------- | ------ | ------ |
 | ✅        | ✅     | ✅     |
 
-### 7. Chamada de presença da turma
-
-| Adicionar | Editar | Listar |
-| --------- | ------ | ------ |
-| ✅        | ✅     | ✅     |
-
-### 8. Tela do professor
+### 7. Tela do professor
 
 | Visualizar as turmas | Visualizar os dados do aluno |
 | -------------------- | ---------------------------- |
 | ✅                   | ✅                           |
 
-### 9. Sistema de login
+### 8. Sistema de login
 
 | Trazer os dados somente daquela escola e professor | Sistema de autenticação | Sistema de autorização |
 | -------------------------------------------------- | ----------------------- | ---------------------- |
