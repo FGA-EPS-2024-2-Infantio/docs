@@ -54,7 +54,6 @@
 | --------- | ------ | ------ |
 | ✅        | ✅     | ✅     |
 
-
 ### 6. Chamada de presença da turma
 
 | Adicionar | Editar | Listar |
@@ -70,60 +69,11 @@
 ### 8. Sistema de login
 
 | Trazer os dados somente daquela escola e professor | Sistema de autenticação | Sistema de autorização |
-| -------------------------------------------------- | ----------------------- | ---------------------- |
-| ✅                                                 | ✅                      | ✅                     |
+| -------------------------------------------------- | ------------------------- | ------------------------ |
+| ✅                                                 | ✅                        | ✅                       |
 
-## O que cada integrante fez durante o desenvolviemento do MVP
+### 9. Matricula online
 
-### Caio Vitor Carneiro de Oliveira
-
-### Felipe Alef Pereira Rodrigues
-
-### Gabriel Ferreira da Silva
-
-### Guilherme Keyti Cabral Kishimoto
-
-### Henrique Pucci da Silva Pinto
-
-### Hugo Rocha de Moura
-
-### João Victor Correia de Oliveira
-
-### Lucas Lopes Frazão - 211031771
-
-| Tarefas                                                                                                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------- |
-| Definição da arquitetura                                                                                                            |
-| Setup do backend                                                                                                                    |
-| Documentação para start do backend                                                                                                  |
-| Setup do frontend                                                                                                                   |
-| Sistema de login                                                                                                                    |
-| Sistema de filtragem dos dados do usuário logado (trazer apenas os alunos, professores, turmas, etc, relacionado ao usuário logado) |
-| Organização dos membros e trios                                                                                                     |
-| Organização das issues                                                                                                              |
-| Code review                                                                                                                         |
-| Gestão de PRs para merge                                                                                                            |
-| Primeiro CRUD (escolas) que serviu como base para os outros                                                                         |
-| CRUD de turmas                                                                                                                      |
-| Construção do MVP via introspecção                                                                                                  |
-| Protótipo de baixa fidelidade                                                                                                       |
-| Validação do MVP com a stakeholder                                                                                                  |
-| Criação e gestão da organização                                                                                                     |
-| Criação do cronograma                                                                                                               |
-| Criação do TAP                                                                                                                      |
-| Gestão das reuniões                                                                                                                 |
-| Teste de fluxo                                                                                                                      |
-
-### Mateus Caltabiano Neves Frauzino
-
-### Matheus Calixto Vaz Pinheiro
-
-### Matheus Soares Arruda
-
-### Pedro de Miranda Haick
-
-### Pedro Helias Carlos
-
-### Victor Eduardo Araújo Ribeiro
-
-### Vitor Manoel Aquino de Brito
+| Geração do link | Coleta dos dados pelo pai | Dados populados na tela do aluno |
+| ----------------- | ------------------------- | -------------------------------- |
+| ✅                | ✅                        | ✅                               |
