@@ -54,13 +54,12 @@ nav:
       - Sprint 3: sprints/sprint3.md
       - Sprint 4: sprints/sprint4.md
   - Artefatos:
-      - Roadmap: artefatos/roadmap.md
-      - Storymap: artefatos/roadmap.md
-      - Prototipos: artefatos/roadmap.md
+      - Storymap: artefatos/storymap.md
+      - Prototipos: artefatos/prototipos.md
       - Personas: artefatos/roadmap.md
-      - Requisitos: artefatos/roadmap.md
-      - Histórias de usuário: artefatos/roadmap.md
-      - Épicos: artefatos/roadmap.md
+      - Requisitos: artefatos/requisitos.md
+      - Histórias de usuário: artefatos/historias_usuario.md
+      - Épicos: artefatos/epicos.md
   - Entregas:
       - MVP: entregas/mvp.md
       - Documento InfraEstrutura: entregas/docInfra.md
