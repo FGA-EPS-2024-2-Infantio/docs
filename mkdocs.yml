@@ -56,7 +56,7 @@ nav:
   - Artefatos:
       - Storymap: artefatos/storymap.md
       - Prototipos: artefatos/prototipos.md
-      - Personas: artefatos/roadmap.md
+      - Personas: artefatos/personas.md
       - Requisitos: artefatos/requisitos.md
       - Histórias de usuário: artefatos/historias_usuario.md
       - Épicos: artefatos/epicos.md
