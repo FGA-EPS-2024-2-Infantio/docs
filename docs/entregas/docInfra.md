@@ -1,4 +1,4 @@
-# 1 - Sobre a infraestrutura:
+# 1 - Sobre a infraestrutura
 
 O servidor para infraestrutura escolhido foi o Google Cloud Plataform(GCP). As motivações que embasam essa escolha são custo, simplicidade, familiaridade, além da estrutura robusta e confiável da Google. Nessa infraestrutura, é possível associar outros serviços e API's do GCP com o projeto, estruturando e evoluindo mais ainda as possibilidades e o alcance do projeto. 
 
@@ -38,4 +38,30 @@ Com isso em mente, alteramos apenas a versão deployada para conter um docker-co
 
 # 4 - Sobre a esteira de processos CI/CD
 
-O projeto consta com esteiras de CI planejadas e estruturadas para Backend e Frontend, e esteiras de CD planejadas porém não estruturadas ainda. 
+O projeto consta com esteiras de CI planejadas e estruturadas para Backend e Frontend, e esteiras de CD planejadas porém não estruturadas ainda.
+
+# 5 - Sonar
+
+O projeto consta o uso do sonar, no qual o mesmo serve para verificar possíveis problemas com o código e aumentar a qualidade do mesmo, entretanto, durante a jornada para o uso existiram alguns problemas para o seu uso.
+
+## 5.1 - Sonarqube
+
+O Sonarqube foi a primeira ferramenta escolhida para uso nos repositórios, entretanto para realizar sua configuração era necessário muito esforço para configurar primeiro uma versão local, para depois configurar uma versão online, esta última que exigiria subir um sítio virtual próprio, o que geraria gastos, como alternativa a essas dificuldades, foi a utilização do sonarcloud.
+
+## 5.1 - Sonarcloud
+
+O Sonarcloud foi a ferramenta definitiva escolhida para uso na análise de código devido a sua facilidade de configuração, bastando inicialmente selecionar a organização onde os repositórios estão para realizar a análise, no qual a mesma pode realizar a filtragem de quais repositórios dessa organização selecionada você quer filtrar.
+
+![Imagem](../assets/sonarcloud-repo.png)
+
+Após tudo isso selecionado, autorizado pelos administradores da organização e configurado, poderá ser visto os repositórios, no qual dentro desses é possível ver as chaves que identificam cada um deles para realizar outras ações, dentro do repositório é possível verificar algumas ações principais como a qualidade do código e issues, que aqui são entendidas como problemas encontrados na qualidade do código.  
+
+![Imagem](../assets/sonarcloud-frontend.png)
+
+Um ponto de destaque são as regras de qualidade e como é feito a análise do código, as regras de qualidade são as definidas por padrão pelo sonar, elas já cobrem grande parte do projeto, e quando uma issue aparece essa mesma indica qual é o erro, o que ele causa e como resolvê-lo, o que pode aumentar o conhecimento do desenvolvedor ou analista, quando outros erros parecidos acontecerem e como solucioná-los.
+
+![Imagem](../assets/sonarcloud-regra.png)
+
+Sobre a análise de código, atualmente ele é feita quando código novo é adicionado, para fins de uma agilidade maior no momento atual do projeto a main e suas branchs estão sendo analisadas, entretanto se alguma dessas últimas for apagada, essas análise não ocorrerá. Mas os problemas de issue que vão painel principal vem somente do conteúdo que está 'main' ou raíz do projeto, assim não ocorre de ter que solucionar um problema que já foi resolvido, mas está em outra branch. 
+
+![Imagem](../assets/sonarcloud-analise.png)
