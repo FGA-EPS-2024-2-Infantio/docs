@@ -49,10 +49,13 @@ nav:
       - Stack Tecnológico: planejamento/stack_tecnologico.md
       - Planejamento de atividades: planejamento/table.md
   - Sprints:
-      - Sprint 1: sprints/sprint1.md
-      - Sprint 2: sprints/sprint2.md
-      - Sprint 3: sprints/sprint3.md
-      - Sprint 4: sprints/sprint4.md
+      - MVP:
+        - Sprint 1: sprints/sprint1.md
+        - Sprint 2: sprints/sprint2.md
+        - Sprint 3: sprints/sprint3.md
+        - Sprint 4: sprints/sprint4.md
+      - Entregas Semanais:
+        - Semana 1: sprints/semana1.md
   - Artefatos:
       - Storymap: artefatos/storymap.md
       - Prototipos: artefatos/prototipos.md
@@ -60,6 +63,8 @@ nav:
       - Requisitos: artefatos/requisitos.md
       - Histórias de usuário: artefatos/historias_usuario.md
       - Épicos: artefatos/epicos.md
-  - Entregas:
+  - Entrega MVP:
       - MVP: entregas/mvp.md
-      - Documento InfraEstrutura: entregas/docInfra.md
+      - Documento Infraestrutura: entregas/docInfra.md
+  - Entregas semanais:
+      - Semana 1: entregas_semanais/semana1.md
