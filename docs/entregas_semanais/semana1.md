@@ -1,4 +1,4 @@
-# Semana 1
+# Semana 1 - 12/01 até 20/01
 
 Na entrega da primeira semana, optamos por desenvolver a funcionalidade de exportar as mensalidades de um aluno para o formato de planilha. A planilha inclui os seguintes dados:
 
