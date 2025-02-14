@@ -54,8 +54,6 @@ nav:
         - Sprint 2: sprints/sprint2.md
         - Sprint 3: sprints/sprint3.md
         - Sprint 4: sprints/sprint4.md
-      - Entregas Semanais:
-        - Semana 1: sprints/semana1.md
   - Artefatos:
       - Storymap: artefatos/storymap.md
       - Prototipos: artefatos/prototipos.md
@@ -70,3 +68,5 @@ nav:
       - Semana 1: entregas_semanais/semana1.md
       - Semana 2: entregas_semanais/semana2.md
       - Semana 3: entregas_semanais/semana3.md
+      - Semana 4: entregas_semanais/semana4.md
+      - Semana 5: entregas_semanais/semana5.md
