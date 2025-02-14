@@ -1,0 +1,1451 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://fga-eps-2024-2-infantio.github.io/artefatos/historias_usuario/">
+      
+      
+        <link rel="prev" href="../requisitos/">
+      
+      
+        <link rel="next" href="../epicos/">
+      
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>Histórias de usuário - Infantio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7Csans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"sans-serif"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#historia-de-usuario" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Infantio" class="md-header__button md-logo" aria-label="Infantio" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Infantio
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Histórias de usuário
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo"  aria-label="Tema escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Tema escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="indigo"  aria-label="Tema claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Tema claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/FGA-EPS-2024-2-Infantio" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Infantio
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Infantio" class="md-nav__button md-logo" aria-label="Infantio" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Infantio
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/FGA-EPS-2024-2-Infantio" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Infantio
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre o Projeto
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Planejamento
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Planejamento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/brainstorm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstorm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/prototipo_validacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo e Validação
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/base_desenvolvimento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Base de desenvolvimento
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/formalizacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Formalização
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/stack_tecnologico/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stack Tecnológico
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento de atividades
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprints
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Sprints
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MVP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            MVP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sprints/sprint1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sprints/sprint2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sprints/sprint3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sprints/sprint4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Artefatos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Artefatos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storymap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storymap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prototipos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Histórias de usuário
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Histórias de usuário
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórias de Usuário
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../epicos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Épicos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entrega MVP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega MVP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/mvp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MVP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/docInfra/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documento Infraestrutura
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entregas semanais
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Entregas semanais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas_semanais/semana1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semana 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas_semanais/semana2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semana 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas_semanais/semana3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semana 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas_semanais/semana4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semana 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas_semanais/semana5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semana 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objetivo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórias de Usuário
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="historia-de-usuario"><strong>História de Usuário</strong></h1>
+<h2 id="introducao"><strong>Introdução</strong></h2>
+<p>As <strong>Histórias de Usuário</strong> representam as necessidades e expectativas dos usuários em relação ao sistema. Elas descrevem, de forma simples e concisa, o que os usuários desejam alcançar com o uso do sistema, facilitando o entendimento e o desenvolvimento das funcionalidades necessárias.</p>
+<h2 id="objetivo"><strong>Objetivo</strong></h2>
+<p>Este artefato tem como objetivo reunir todas as <strong>Histórias de Usuário</strong> necessárias para o desenvolvimento do sistema Infantio. Cada história de usuário está associada a um <strong>Requisito Funcional</strong> específico, garantindo que as necessidades dos usuários sejam atendidas de forma clara e organizada.</p>
+<h2 id="historias-de-usuario"><strong>Histórias de Usuário</strong></h2>
+<p><strong>Histórias de Usuário</strong> descrevem as funcionalidades do sistema do ponto de vista do usuário final. Cada história está vinculada a um <strong>Requisito Funcional</strong> específico, identificado por seu código correspondente.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Identificação</strong></th>
+<th><strong>História de Usuário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RF01</strong></td>
+<td><em>Eu, como administrador, quero criar uma nova escola para adicioná-la à plataforma.</em></td>
+</tr>
+<tr>
+<td><strong>RF02</strong></td>
+<td><em>Eu, como administrador, quero editar as informações de uma escola para mantê-las atualizadas.</em></td>
+</tr>
+<tr>
+<td><strong>RF03</strong></td>
+<td><em>Eu, como administrador, quero organizar as informações das escolas cadastradas para facilitar a gestão.</em></td>
+</tr>
+<tr>
+<td><strong>RF04</strong></td>
+<td><em>Eu, como diretor, quero cadastrar novos alunos para que possam ser matriculados nas escolas.</em></td>
+</tr>
+<tr>
+<td><strong>RF05</strong></td>
+<td><em>Eu, como diretor/professor, quero visualizar as informações dos alunos para monitorar sua situação acadêmica.</em></td>
+</tr>
+<tr>
+<td><strong>RF06</strong></td>
+<td><em>Eu, como diretor, quero atualizar os dados dos alunos para manter as informações sempre corretas.</em></td>
+</tr>
+<tr>
+<td><strong>RF07</strong></td>
+<td><em>Eu, como diretor, quero excluir alunos que não fazem mais parte da instituição para manter o banco de dados atualizado.</em></td>
+</tr>
+<tr>
+<td><strong>RF08</strong></td>
+<td><em>Eu, como diretor, quero cadastrar novos professores para que possam lecionar nas turmas.</em></td>
+</tr>
+<tr>
+<td><strong>RF09</strong></td>
+<td><em>Eu, como diretor, quero editar as informações dos professores para manter seus dados atualizados.</em></td>
+</tr>
+<tr>
+<td><strong>RF10</strong></td>
+<td><em>Eu, como diretor, quero excluir professores que não fazem mais parte da instituição para manter o banco de dados correto.</em></td>
+</tr>
+<tr>
+<td><strong>RF11</strong></td>
+<td><em>Eu, como diretor, quero consultar os dados dos professores para gerenciar melhor os recursos docentes.</em></td>
+</tr>
+<tr>
+<td><strong>RF12</strong></td>
+<td><em>Eu, como diretor, quero visualizar as turmas e disciplinas associadas a cada professor para organizar melhor a distribuição de aulas.</em></td>
+</tr>
+<tr>
+<td><strong>RF13</strong></td>
+<td><em>Eu, como diretor, quero criar novas turmas para organizar os grupos de alunos.</em></td>
+</tr>
+<tr>
+<td><strong>RF14</strong></td>
+<td><em>Eu, como diretor, quero atribuir professores às turmas para garantir que cada turma tenha um docente responsável.</em></td>
+</tr>
+<tr>
+<td><strong>RF15</strong></td>
+<td><em>Eu, como diretor, quero atribuir alunos às turmas para organizar a distribuição dos estudantes.</em></td>
+</tr>
+<tr>
+<td><strong>RF16</strong></td>
+<td><em>Eu, como diretor, quero editar as informações das turmas para mantê-las atualizadas conforme necessário.</em></td>
+</tr>
+<tr>
+<td><strong>RF17</strong></td>
+<td><em>Eu, como diretor, quero excluir turmas que não estão mais em uso para manter o sistema organizado.</em></td>
+</tr>
+<tr>
+<td><strong>RF18</strong></td>
+<td><em>Eu, como usuário, quero fazer login no sistema com credenciais únicas para acessar minhas funcionalidades.</em></td>
+</tr>
+<tr>
+<td><strong>RF19</strong></td>
+<td><em>Eu, como sistema, quero validar as credenciais do usuário durante o processo de login para garantir a segurança.</em></td>
+</tr>
+<tr>
+<td><strong>RF20</strong></td>
+<td><em>Eu, como sistema, quero exibir apenas os dados correspondentes à escola vinculada ao perfil do usuário após o login para personalizar a experiência.</em></td>
+</tr>
+<tr>
+<td><strong>RF21</strong></td>
+<td><em>Eu, como administrador, quero implementar diferentes níveis de acesso (roles) para controlar quem pode acessar o quê no sistema.</em></td>
+</tr>
+<tr>
+<td><strong>RF22</strong></td>
+<td><em>Eu, como sistema, quero garantir que apenas usuários autenticados possam acessar funcionalidades protegidas para manter a segurança.</em></td>
+</tr>
+<tr>
+<td><strong>RF23</strong></td>
+<td><em>Eu, como administrador/diretor, quero gerenciar (criar, editar, excluir) os roles e permissões dos usuários para controlar o acesso às diferentes partes do sistema.</em></td>
+</tr>
+<tr>
+<td><strong>RF24</strong></td>
+<td><em>Eu, como diretor, quero gerar um arquivo CSV das mensalidades para facilitar a análise e o controle financeiro.</em></td>
+</tr>
+<tr>
+<td><strong>RF25</strong></td>
+<td><em>Eu, como diretor, quero filtrar as mensalidades por período, escola ou turma antes de gerar o CSV para obter relatórios mais específicos.</em></td>
+</tr>
+<tr>
+<td><strong>RF26</strong></td>
+<td><em>Eu, como diretor, quero receber um feedback sobre o status da geração do CSV (e.g., sucesso, erro) para saber se a operação foi concluída corretamente.</em></td>
+</tr>
+<tr>
+<td><strong>RF27</strong></td>
+<td><em>Eu, como diretor/professor, quero gerar um relatório em PDF das presenças para acompanhar a frequência dos alunos.</em></td>
+</tr>
+<tr>
+<td><strong>RF28</strong></td>
+<td><em>Eu, como diretor/professor, quero selecionar períodos específicos e turmas ao gerar o relatório em PDF para obter dados mais direcionados.</em></td>
+</tr>
+<tr>
+<td><strong>RF29</strong></td>
+<td><em>Eu, como diretor, quero enviar mensagens ou solicitações diretamente para o administrador para solicitar suporte ou outras necessidades.</em></td>
+</tr>
+<tr>
+<td><strong>RF30</strong></td>
+<td><em>Eu, como sistema, quero registrar todas as comunicações entre diretores e administradores para fins de auditoria e histórico.</em></td>
+</tr>
+<tr>
+<td><strong>RF31</strong></td>
+<td><em>Eu, como administrador, quero ser notificado sobre novas mensagens ou solicitações recebidas dos diretores para responder prontamente.</em></td>
+</tr>
+<tr>
+<td><strong>RF32</strong></td>
+<td><em>Eu, como administrador, quero categorizar as mensagens por tipo (e.g., suporte técnico, solicitações financeiras, feedback) para organizar melhor as solicitações.</em></td>
+</tr>
+<tr>
+<td><strong>RF33</strong></td>
+<td><em>Eu, como diretor, quero anexar documentos ou arquivos nas comunicações para fornecer informações detalhadas ao administrador.</em></td>
+</tr>
+<tr>
+<td><strong>RF34</strong></td>
+<td><em>Eu, como diretor, quero enviar mensagens para pais/mães de alunos via WhatsApp para informar sobre eventos escolares.</em></td>
+</tr>
+<tr>
+<td><strong>RF35</strong></td>
+<td><em>Eu, como diretor, quero personalizar as mensagens enviadas aos pais/mães para atender às necessidades específicas de comunicação.</em></td>
+</tr>
+<tr>
+<td><strong>RF36</strong></td>
+<td><em>Eu, como diretor, quero ser notificado sobre respostas recebidas dos pais/mães para responder prontamente.</em></td>
+</tr>
+<tr>
+<td><strong>RF37</strong></td>
+<td><em>Eu, como diretor, quero enviar notificações automáticas para eventos importantes (e.g., reuniões, avisos de ausência) para garantir que os pais/mães sejam informados a tempo.</em></td>
+</tr>
+<tr>
+<td><strong>RF38</strong></td>
+<td><em>Eu, como diretor, quero categorizar as mensagens por tipo (e.g., avisos, convites, feedback) para organizar melhor as comunicações.</em></td>
+</tr>
+<tr>
+<td><strong>RF39</strong></td>
+<td><em>Eu, como diretor, quero anexar documentos ou arquivos nas mensagens via WhatsApp para fornecer informações detalhadas aos pais/mães.</em></td>
+</tr>
+<tr>
+<td><strong>RF40</strong></td>
+<td><em>Eu, como professor, quero realizar chamadas de presença diretamente na tela para facilitar o registro de frequência.</em></td>
+</tr>
+<tr>
+<td><strong>RF41</strong></td>
+<td><em>Eu, como professor, quero consultar informações relevantes sobre os alunos de minhas turmas para entender melhor suas necessidades e desempenhos.</em></td>
+</tr>
+<tr>
+<td><strong>RF42</strong></td>
+<td><em>Eu, como professor/diretor, quero registrar ocorrências relacionadas aos alunos, como advertências e suspensões, para manter um histórico preciso.</em></td>
+</tr>
+<tr>
+<td><strong>RF43</strong></td>
+<td><em>Eu, como usuário, quero visualizar o histórico de ocorrências de cada aluno para monitorar seu comportamento ao longo do tempo.</em></td>
+</tr>
+<tr>
+<td><strong>RF44</strong></td>
+<td><em>Eu, como usuário, quero registrar e acompanhar as notas dos alunos para monitorar seu desempenho acadêmico.</em></td>
+</tr>
+<tr>
+<td><strong>RF45</strong></td>
+<td><em>Eu, como usuário, quero integrar funcionalidades de busca e filtro para facilitar a localização de ocorrências específicas.</em></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Infantio
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs", "navigation.section"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>
